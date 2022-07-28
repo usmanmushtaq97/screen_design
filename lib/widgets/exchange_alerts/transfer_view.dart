@@ -1,13 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-
 class TransferView extends StatefulWidget {
   const TransferView({Key? key}) : super(key: key);
-
   @override
   State<TransferView> createState() => _TransferViewState();
 }
-
 class _TransferViewState extends State<TransferView> {
   @override
   Widget build(BuildContext context) {
@@ -115,7 +112,7 @@ class _TransferViewState extends State<TransferView> {
                                   Icon(Icons.delete, color: Colors.grey, size: 22),
                                 ],
                               ),
-                              Divider(
+                             const Divider(
                                 height: 1,
                                 color: Colors.grey,
                               ),

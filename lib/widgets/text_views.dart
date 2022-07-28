@@ -174,7 +174,7 @@ class TextView {
       softWrap: true,
       maxLines: lines,
       style: TextStyle(
-        fontSize: sizes!.extraLargeFontSize,
+        fontSize: 20,
         fontWeight: FontWeight.bold,
         fontFamily: fontFamily,
         color: color,
@@ -401,7 +401,7 @@ class TextView {
       maxLines: lines,
       overflow: TextOverflow.ellipsis,
       style: TextStyle(
-        fontSize: sizes!.regularFontSize,
+        fontSize: 20,
         fontWeight: FontWeight.bold,
         fontFamily: fontFamily,
         color: color,

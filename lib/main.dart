@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:screen_design/transfer_view.dart';
+import 'package:screen_design/view/exchange_alert.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
                primarySwatch: Colors.blue,
       ),
-      home: const TransferView(),
+      home: const ExchangeAlert(),
     );
   }
 }
